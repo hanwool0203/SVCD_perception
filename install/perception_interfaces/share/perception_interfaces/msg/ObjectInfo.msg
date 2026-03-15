@@ -1,0 +1,1 @@
+/home/omen16/workspace/grad_ws/src/perception_interfaces/msg/ObjectInfo.msg

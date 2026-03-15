@@ -1,0 +1,269 @@
+[0.008s] Invoking command in '/home/omen16/workspace/grad_ws/build/perception_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake /home/omen16/workspace/grad_ws/src/perception_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omen16/workspace/grad_ws/install/perception_interfaces
+[0.082s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.082s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.082s]   CMake.
+[0.082s] 
+[0.082s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.082s]   to tell CMake that the project requires at least <min> but has been updated
+[0.082s]   to work with policies introduced by <max> or earlier.
+[0.082s] 
+[0.082s] [0m
+[0.166s] -- The C compiler identification is GNU 11.4.0
+[0.252s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.327s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.404s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.569s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.624s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.668s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.681s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.766s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.106s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.420s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.840s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.846s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.846s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.846s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.846s]   the cmake_policy command to set the policy and suppress this warning.
+[1.846s] 
+[1.846s] Call Stack (most recent call first):
+[1.846s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.846s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.847s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.847s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.847s] [0m
+[1.863s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[1.865s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.866s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.866s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.866s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.866s]   the cmake_policy command to set the policy and suppress this warning.
+[1.866s] 
+[1.866s] Call Stack (most recent call first):
+[1.866s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.866s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.866s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.866s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.866s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.867s] [0m
+[1.878s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.878s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.878s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.878s]   the cmake_policy command to set the policy and suppress this warning.
+[1.878s] 
+[1.878s] Call Stack (most recent call first):
+[1.878s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.878s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.878s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.878s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.878s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.878s] [0m
+[1.887s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[1.887s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.887s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.887s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.901s] -- Found PythonExtra: .so
+[1.954s] -- Configuring done (1.9s)
+[1.983s] -- Generating done (0.0s)
+[1.994s] -- Build files have been written to: /home/omen16/workspace/grad_ws/build/perception_interfaces
+[2.002s] Invoked command in '/home/omen16/workspace/grad_ws/build/perception_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake /home/omen16/workspace/grad_ws/src/perception_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omen16/workspace/grad_ws/install/perception_interfaces
+[2.004s] Invoking command in '/home/omen16/workspace/grad_ws/build/perception_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake --build /home/omen16/workspace/grad_ws/build/perception_interfaces -- -j32 -l32
+[2.069s] [  2%] [1m[34mGenerating C code for ROS interfaces[0m
+[2.077s] [  5%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[2.078s] [  5%] Built target ament_cmake_python_symlink_perception_interfaces
+[2.218s] running egg_info
+[2.218s] creating perception_interfaces.egg-info
+[2.218s] writing perception_interfaces.egg-info/PKG-INFO
+[2.218s] writing dependency_links to perception_interfaces.egg-info/dependency_links.txt
+[2.219s] writing top-level names to perception_interfaces.egg-info/top_level.txt
+[2.219s] writing manifest file 'perception_interfaces.egg-info/SOURCES.txt'
+[2.220s] reading manifest file 'perception_interfaces.egg-info/SOURCES.txt'
+[2.221s] writing manifest file 'perception_interfaces.egg-info/SOURCES.txt'
+[2.236s] [  5%] Built target ament_cmake_python_build_perception_interfaces_egg
+[2.303s] [  5%] Built target perception_interfaces__cpp
+[2.308s] [  7%] [32mBuilding C object CMakeFiles/perception_interfaces__rosidl_generator_c.dir/rosidl_generator_c/perception_interfaces/msg/detail/object_info__functions.c.o[0m
+[2.308s] [ 10%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.309s] [ 15%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[2.309s] [ 15%] [32mBuilding C object CMakeFiles/perception_interfaces__rosidl_generator_c.dir/rosidl_generator_c/perception_interfaces/msg/detail/object_array__functions.c.o[0m
+[2.309s] [ 17%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.372s] [ 20%] [1m[32mLinking C shared library libperception_interfaces__rosidl_generator_c.so[0m
+[2.395s] [ 20%] Built target perception_interfaces__rosidl_generator_c
+[2.400s] [ 23%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[2.401s] [ 25%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[2.401s] [ 28%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[2.576s] [ 30%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/perception_interfaces/msg/object_info__type_support.cpp.o[0m
+[2.576s] [ 33%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/perception_interfaces/msg/object_array__type_support.cpp.o[0m
+[2.582s] [ 35%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/perception_interfaces/msg/detail/object_array__type_support.cpp.o[0m
+[2.584s] [ 38%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/perception_interfaces/msg/detail/object_info__type_support.cpp.o[0m
+[2.593s] [ 41%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/perception_interfaces/msg/detail/dds_fastrtps/object_info__type_support.cpp.o[0m
+[2.594s] [ 43%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/perception_interfaces/msg/detail/dds_fastrtps/object_array__type_support.cpp.o[0m
+[2.624s] [ 46%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/perception_interfaces/msg/object_info__type_support.cpp.o[0m
+[2.624s] [ 48%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/perception_interfaces/msg/object_array__type_support.cpp.o[0m
+[2.645s] [ 51%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/perception_interfaces/msg/detail/object_info__type_support_c.cpp.o[0m
+[2.645s] [ 53%] [32mBuilding C object CMakeFiles/perception_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/perception_interfaces/msg/detail/object_info__type_support.c.o[0m
+[2.645s] [ 58%] [32mBuilding CXX object CMakeFiles/perception_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/perception_interfaces/msg/detail/object_array__type_support_c.cpp.o[0m
+[2.645s] [ 58%] [32mBuilding C object CMakeFiles/perception_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/perception_interfaces/msg/detail/object_array__type_support.c.o[0m
+[2.651s] [ 61%] [1m[32mLinking CXX shared library libperception_interfaces__rosidl_typesupport_c.so[0m
+[2.681s] [ 61%] Built target perception_interfaces__rosidl_typesupport_c
+[2.681s] [ 64%] [1m[32mLinking C shared library libperception_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.702s] [ 64%] Built target perception_interfaces__rosidl_typesupport_introspection_c
+[2.798s] [ 66%] [1m[32mLinking CXX shared library libperception_interfaces__rosidl_typesupport_cpp.so[0m
+[2.825s] [ 66%] Built target perception_interfaces__rosidl_typesupport_cpp
+[2.861s] [ 69%] [1m[32mLinking CXX shared library libperception_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.870s] [ 71%] [1m[32mLinking CXX shared library libperception_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.874s] [ 74%] [1m[32mLinking CXX shared library libperception_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.899s] [ 74%] Built target perception_interfaces__rosidl_typesupport_introspection_cpp
+[2.916s] [ 74%] Built target perception_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.919s] [ 74%] Built target perception_interfaces__rosidl_typesupport_fastrtps_c
+[2.927s] [ 74%] Built target perception_interfaces
+[2.936s] [ 76%] [1m[34mGenerating Python code for ROS interfaces[0m
+[3.319s] [ 76%] Built target perception_interfaces__py
+[3.327s] [ 79%] [32mBuilding C object CMakeFiles/perception_interfaces__rosidl_generator_py.dir/rosidl_generator_py/perception_interfaces/msg/_object_info_s.c.o[0m
+[3.327s] [ 82%] [32mBuilding C object CMakeFiles/perception_interfaces__rosidl_generator_py.dir/rosidl_generator_py/perception_interfaces/msg/_object_array_s.c.o[0m
+[3.409s] [ 84%] [1m[32mLinking C shared library rosidl_generator_py/perception_interfaces/libperception_interfaces__rosidl_generator_py.so[0m
+[3.432s] [ 84%] Built target perception_interfaces__rosidl_generator_py
+[3.441s] [ 87%] [32mBuilding C object CMakeFiles/perception_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/perception_interfaces/_perception_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.443s] [ 89%] [32mBuilding C object CMakeFiles/perception_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/perception_interfaces/_perception_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.443s] [ 92%] [32mBuilding C object CMakeFiles/perception_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/perception_interfaces/_perception_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.507s] [ 97%] [1m[32mLinking C shared library rosidl_generator_py/perception_interfaces/perception_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.507s] [ 97%] [1m[32mLinking C shared library rosidl_generator_py/perception_interfaces/perception_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.509s] [100%] [1m[32mLinking C shared library rosidl_generator_py/perception_interfaces/perception_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.530s] [100%] Built target perception_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.530s] [100%] Built target perception_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.530s] [100%] Built target perception_interfaces__rosidl_typesupport_c__pyext
+[3.604s] Invoked command in '/home/omen16/workspace/grad_ws/build/perception_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake --build /home/omen16/workspace/grad_ws/build/perception_interfaces -- -j32 -l32
+[3.652s] Invoking command in '/home/omen16/workspace/grad_ws/build/perception_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake --install /home/omen16/workspace/grad_ws/build/perception_interfaces
+[3.696s] -- Install configuration: ""
+[3.697s] -- Execute custom install script
+[3.697s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/ament_index/resource_index/rosidl_interfaces/perception_interfaces
+[3.701s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__functions.h
+[3.704s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__struct.h
+[3.706s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__type_support.h
+[3.708s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__functions.h
+[3.711s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__struct.h
+[3.713s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__type_support.h
+[3.715s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/object_array.h
+[3.717s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/object_info.h
+[3.719s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.722s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/environment/library_path.sh
+[3.724s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/environment/library_path.dsv
+[3.726s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__rosidl_typesupport_fastrtps_c.h
+[3.728s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_c.h
+[3.730s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.733s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__rosidl_typesupport_introspection_c.h
+[3.735s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__rosidl_typesupport_introspection_c.h
+[3.737s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.740s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__builder.hpp
+[3.742s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__struct.hpp
+[3.744s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__traits.hpp
+[3.746s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__type_support.hpp
+[3.748s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__builder.hpp
+[3.750s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__struct.hpp
+[3.753s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__traits.hpp
+[3.755s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__type_support.hpp
+[3.757s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/object_array.hpp
+[3.759s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/object_info.hpp
+[3.761s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.765s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.768s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.770s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.772s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_array__rosidl_typesupport_introspection_cpp.hpp
+[3.775s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/include/perception_interfaces/perception_interfaces/msg/detail/object_info__rosidl_typesupport_introspection_cpp.hpp
+[3.777s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/environment/pythonpath.sh
+[3.779s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/environment/pythonpath.dsv
+[3.782s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.784s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.786s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.788s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.792s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/__init__.py
+[3.794s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/_perception_interfaces_s.ep.rosidl_typesupport_c.c
+[3.797s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/_perception_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.799s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/_perception_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.801s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/libperception_interfaces__rosidl_generator_py.so
+[3.803s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/msg/__init__.py
+[3.805s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/msg/_object_array.py
+[3.807s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/msg/_object_array_s.c
+[3.810s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/msg/_object_info.py
+[3.812s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/msg/_object_info_s.c
+[3.815s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.817s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.819s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.821s] -- Up-to-date symlink: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.821s] -- Up-to-date symlink: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.821s] -- Up-to-date symlink: /home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/perception_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.821s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/msg/ObjectInfo.idl
+[3.824s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/msg/ObjectArray.idl
+[3.826s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/msg/ObjectInfo.msg
+[3.828s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/msg/ObjectArray.msg
+[3.830s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/ament_index/resource_index/package_run_dependencies/perception_interfaces
+[3.833s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/ament_index/resource_index/parent_prefix_path/perception_interfaces
+[3.835s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/environment/ament_prefix_path.sh
+[3.837s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/environment/ament_prefix_path.dsv
+[3.840s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/environment/path.sh
+[3.842s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/environment/path.dsv
+[3.844s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/local_setup.bash
+[3.846s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/local_setup.sh
+[3.849s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/local_setup.zsh
+[3.851s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/local_setup.dsv
+[3.853s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/package.dsv
+[3.855s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/ament_index/resource_index/packages/perception_interfaces
+[3.857s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.860s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.862s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.864s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.866s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.872s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.875s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.877s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfacesConfig.cmake
+[3.879s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfacesConfig-version.cmake
+[3.884s] -- Symlinking: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/package.xml
+[3.887s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_generator_c.so
+[3.887s] -- Set non-toolchain portion of runtime path of "/home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_generator_c.so" to ""
+[3.887s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.887s] -- Set non-toolchain portion of runtime path of "/home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.887s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_introspection_c.so
+[3.888s] -- Set non-toolchain portion of runtime path of "/home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.888s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_c.so
+[3.888s] -- Set non-toolchain portion of runtime path of "/home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_c.so" to ""
+[3.888s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.888s] -- Set non-toolchain portion of runtime path of "/home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.888s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.888s] -- Set non-toolchain portion of runtime path of "/home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.889s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_cpp.so
+[3.889s] -- Set non-toolchain portion of runtime path of "/home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.912s] Listing '/home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces'...
+[3.912s] Compiling '/home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/__init__.py'...
+[3.912s] Listing '/home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/msg'...
+[3.912s] Compiling '/home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/msg/__init__.py'...
+[3.913s] Compiling '/home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/msg/_object_array.py'...
+[3.913s] Compiling '/home/omen16/workspace/grad_ws/install/perception_interfaces/local/lib/python3.10/dist-packages/perception_interfaces/msg/_object_info.py'...
+[3.915s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_generator_py.so
+[3.915s] -- Set non-toolchain portion of runtime path of "/home/omen16/workspace/grad_ws/install/perception_interfaces/lib/libperception_interfaces__rosidl_generator_py.so" to ""
+[3.915s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_cExport.cmake
+[3.915s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.915s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.915s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.915s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_cExport.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_cppExport.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_cppExport.cmake
+[3.916s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/perception_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.917s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_pyExport.cmake
+[3.917s] -- Installing: /home/omen16/workspace/grad_ws/install/perception_interfaces/share/perception_interfaces/cmake/export_perception_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.918s] Invoked command in '/home/omen16/workspace/grad_ws/build/perception_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake --install /home/omen16/workspace/grad_ws/build/perception_interfaces

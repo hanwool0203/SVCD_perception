@@ -1,0 +1,266 @@
+[0.016s] Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /usr/bin/cmake /home/omen16/workspace/grad_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/omen16/workspace/grad_ws/install/velodyne_msgs
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.218s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.450s] -- Detecting CXX compiler ABI info - done
+[0.457s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.457s] -- Detecting CXX compile features
+[0.458s] -- Detecting CXX compile features - done
+[0.462s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.579s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.649s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.686s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.697s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.708s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.740s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.748s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.945s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.947s] -- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.949s] -- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.951s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.716s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.717s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.737s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.737s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.737s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.737s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.753s] -- Found PythonExtra: .so  
+[1.788s] -- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.790s] -- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.791s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.802s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.803s] -- Added test 'lint_cmake' to check CMake code style
+[1.803s] -- Added test 'xmllint' to check XML markup files
+[1.806s] -- Configuring done
+[1.842s] -- Generating done
+[1.850s] -- Build files have been written to: /home/omen16/workspace/grad_ws/build/velodyne_msgs
+[1.858s] Invoked command in '/home/omen16/workspace/grad_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /usr/bin/cmake /home/omen16/workspace/grad_ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/omen16/workspace/grad_ws/install/velodyne_msgs
+[1.860s] Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /usr/bin/cmake --build /home/omen16/workspace/grad_ws/build/velodyne_msgs -- -j32 -l32
+[1.894s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.903s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.911s] [  5%] Built target ament_cmake_python_copy_velodyne_msgs
+[2.063s] running egg_info
+[2.063s] creating velodyne_msgs.egg-info
+[2.063s] writing velodyne_msgs.egg-info/PKG-INFO
+[2.063s] writing dependency_links to velodyne_msgs.egg-info/dependency_links.txt
+[2.063s] writing top-level names to velodyne_msgs.egg-info/top_level.txt
+[2.064s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[2.065s] reading manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[2.066s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[2.087s] [  5%] Built target ament_cmake_python_build_velodyne_msgs_egg
+[2.115s] [  7%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_packet__functions.c.o[0m
+[2.116s] [ 10%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_scan__functions.c.o[0m
+[2.124s] [ 10%] Built target velodyne_msgs__cpp
+[2.132s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.133s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.133s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.155s] [ 20%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_generator_c.so[0m
+[2.279s] [ 20%] Built target velodyne_msgs__rosidl_generator_c
+[2.288s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.289s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.289s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.319s] [ 30%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[2.320s] [ 33%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[2.341s] [ 35%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp.o[0m
+[2.342s] [ 38%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp.o[0m
+[2.353s] [ 43%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_packet__type_support.cpp.o[0m
+[2.353s] [ 43%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_scan__type_support.cpp.o[0m
+[2.535s] [ 53%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_scan__type_support.c.o[0m
+[2.535s] [ 53%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[2.535s] [ 53%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_packet__type_support.c.o[0m
+[2.535s] [ 53%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[2.566s] [ 58%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_scan__type_support_c.cpp.o[0m
+[2.566s] [ 58%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_packet__type_support_c.cpp.o[0m
+[2.645s] [ 64%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_c.so[0m
+[2.645s] [ 64%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_cpp.so[0m
+[2.653s] [ 66%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.677s] [ 69%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.683s] [ 69%] Built target velodyne_msgs__rosidl_typesupport_c
+[2.683s] [ 69%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[2.683s] [ 69%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[2.694s] [ 71%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.739s] [ 71%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[2.763s] [ 71%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[2.885s] [ 74%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.940s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[2.958s] [ 74%] Built target velodyne_msgs
+[2.974s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.347s] [ 76%] Built target velodyne_msgs__py
+[3.361s] [ 79%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_packet_s.c.o[0m
+[3.364s] [ 82%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_scan_s.c.o[0m
+[3.455s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so[0m
+[3.488s] [ 84%] Built target velodyne_msgs__rosidl_generator_py
+[3.503s] [ 87%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.505s] [ 92%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.505s] [ 92%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.594s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.595s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.596s] [100%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.627s] [100%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[3.669s] [100%] Built target velodyne_msgs__rosidl_typesupport_introspection_c__pyext
+[3.669s] [100%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.741s] Invoked command in '/home/omen16/workspace/grad_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /usr/bin/cmake --build /home/omen16/workspace/grad_ws/build/velodyne_msgs -- -j32 -l32
+[3.750s] Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /usr/bin/cmake --install /home/omen16/workspace/grad_ws/build/velodyne_msgs
+[3.755s] -- Install configuration: ""
+[3.756s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[3.757s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[3.757s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[3.757s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.h
+[3.757s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.h
+[3.757s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[3.758s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.h
+[3.758s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.h
+[3.758s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.h
+[3.758s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.h
+[3.758s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.c
+[3.758s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.c
+[3.759s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.h
+[3.759s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.h
+[3.759s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.759s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[3.759s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.dsv
+[3.760s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[3.760s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so" to ""
+[3.760s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[3.760s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[3.760s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[3.760s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[3.760s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[3.761s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.761s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[3.761s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.761s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[3.761s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[3.761s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.761s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[3.761s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__traits.hpp
+[3.761s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.hpp
+[3.761s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.hpp
+[3.761s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.hpp
+[3.761s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__traits.hpp
+[3.761s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__builder.hpp
+[3.762s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__builder.hpp
+[3.762s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.hpp
+[3.762s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.hpp
+[3.762s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.hpp
+[3.762s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[3.762s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[3.762s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[3.762s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/dds_fastrtps
+[3.762s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[3.762s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[3.762s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.762s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.763s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.763s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[3.763s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[3.763s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[3.763s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_c.h
+[3.763s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.c
+[3.763s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.c
+[3.763s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_c.h
+[3.763s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.763s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[3.764s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.764s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[3.764s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so" to ""
+[3.764s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs
+[3.764s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg
+[3.764s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail
+[3.764s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[3.764s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp
+[3.764s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[3.765s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp
+[3.765s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[3.765s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.765s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[3.766s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so" to ""
+[3.766s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[3.766s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.dsv
+[3.766s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info
+[3.767s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/dependency_links.txt
+[3.767s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/SOURCES.txt
+[3.767s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/top_level.txt
+[3.767s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/PKG-INFO
+[3.767s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs
+[3.767s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c
+[3.767s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py
+[3.767s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.768s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg
+[3.768s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py
+[3.768s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py
+[3.768s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py
+[3.768s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[3.768s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[3.768s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so
+[3.768s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.768s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.769s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.769s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.797s] Listing '/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs'...
+[3.798s] Compiling '/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py'...
+[3.798s] Listing '/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg'...
+[3.798s] Compiling '/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py'...
+[3.798s] Compiling '/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py'...
+[3.798s] Compiling '/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py'...
+[3.805s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.805s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.806s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.806s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.806s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.807s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.807s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so
+[3.807s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so" to ""
+[3.808s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[3.808s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[3.808s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[3.808s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[3.808s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[3.809s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[3.809s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[3.809s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.dsv
+[3.809s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[3.809s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/environment/path.dsv
+[3.809s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[3.809s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[3.810s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[3.810s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/local_setup.dsv
+[3.810s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/package.dsv
+[3.810s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[3.810s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport.cmake
+[3.811s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.811s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.811s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.811s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cppExport.cmake
+[3.811s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.811s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.811s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.811s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.812s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport.cmake
+[3.812s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.812s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.812s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.812s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport.cmake
+[3.812s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.812s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport.cmake
+[3.812s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.812s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[3.813s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.813s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.813s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.813s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.813s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.813s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.813s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[3.813s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[3.814s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[3.817s] Invoked command in '/home/omen16/workspace/grad_ws/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /usr/bin/cmake --install /home/omen16/workspace/grad_ws/build/velodyne_msgs

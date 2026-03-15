@@ -1,0 +1,89 @@
+[0.008s] Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/omen16/workspace/grad_ws/build/velodyne_pointcloud -- -j32 -l32
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target velodyne_rawdata[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target velodyne_cloud_types[0m
+[0.064s] [ 11%] Built target gtest_main
+[0.065s] [ 22%] Built target gtest
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target test_row_step[0m
+[0.084s] [ 27%] [32m[1mLinking CXX shared library libvelodyne_cloud_types.so[0m
+[0.092s] [ 33%] [32mBuilding CXX object CMakeFiles/velodyne_rawdata.dir/src/lib/rawdata.cpp.o[0m
+[0.097s] [ 38%] [32m[1mLinking CXX executable test_row_step[0m
+[0.203s] [ 50%] Built target velodyne_cloud_types
+[0.283s] [ 55%] Built target test_row_step
+[3.389s] [ 61%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[3.619s] [ 66%] Built target velodyne_rawdata
+[3.628s] [35m[1mConsolidate compiler generated dependencies of target test_calibration[0m
+[3.629s] [35m[1mConsolidate compiler generated dependencies of target transform[0m
+[3.642s] [ 72%] [32m[1mLinking CXX executable test_calibration[0m
+[3.650s] [ 77%] [32m[1mLinking CXX shared library libtransform.so[0m
+[3.904s] [ 83%] Built target test_calibration
+[4.042s] [ 88%] Built target transform
+[4.053s] [35m[1mConsolidate compiler generated dependencies of target velodyne_transform_node[0m
+[4.073s] [ 94%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[4.278s] [100%] Built target velodyne_transform_node
+[4.289s] Invoked command in '/home/omen16/workspace/grad_ws/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/omen16/workspace/grad_ws/build/velodyne_pointcloud -- -j32 -l32
+[4.292s] Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_pointcloud': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/omen16/workspace/grad_ws/build/velodyne_pointcloud
+[4.297s] -- Install configuration: ""
+[4.297s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+[4.298s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so" to ""
+[4.298s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[4.299s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so" to ""
+[4.299s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib/libtransform.so
+[4.307s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib/libtransform.so" to ""
+[4.308s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+[4.309s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node" to ""
+[4.309s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/include/velodyne_pointcloud
+[4.309s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+[4.309s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/config
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLS128-velodyne_transform_node-params.yaml
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-composed-launch.py
+[4.310s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLS128-launch.py
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/issue_84_float_intensities.yaml
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLS128.yaml
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[4.311s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.sh
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/library_path.dsv
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[4.312s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[4.312s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[4.314s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport.cmake
+[4.314s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport-noconfig.cmake
+[4.314s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.314s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.314s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_libraries-extras.cmake
+[4.314s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/ament_cmake_export_targets-extras.cmake
+[4.314s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[4.314s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[4.314s] -- Up-to-date: /home/omen16/workspace/grad_ws/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[4.317s] Invoked command in '/home/omen16/workspace/grad_ws/build/velodyne_pointcloud' returned '0': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/omen16/workspace/grad_ws/build/velodyne_pointcloud

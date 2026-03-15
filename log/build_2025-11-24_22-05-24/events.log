@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (-) JobUnselected: {'identifier': 'lidar_processor'}
+[0.000224] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.000236] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.000246] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.000255] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.000265] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.000277] (kiss_icp) JobQueued: {'identifier': 'kiss_icp', 'dependencies': OrderedDict()}
+[0.000289] (kiss_icp) JobStarted: {'identifier': 'kiss_icp'}
+[0.005243] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'cmake'}
+[0.005627] (kiss_icp) Command: {'cmd': ['/home/omen16/.local/bin/cmake', '/home/omen16/workspace/grad_ws/src/kiss-icp/ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/omen16/workspace/grad_ws/install/kiss_icp'], 'cwd': '/home/omen16/workspace/grad_ws/build/kiss_icp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'omen16'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/home/omen16/workspace/grad_ws/install/kiss_icp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omen16'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/omen16'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1274'), ('SYSTEMD_EXEC_PID', '1484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('_CONDA_ROOT', '/home/omen16/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '173574'), ('COLCON_PREFIX_PATH', '/home/omen16/workspace/grad_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'omen16'), ('JOURNAL_STREAM', '8:49664'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omen16'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/omen16/miniconda3/condabin:/usr/local/cuda-12.8/bin:/opt/ros/humble/bin:/usr/lib/dotnet/dotnet:/home/omen16/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/omen16/.dotnet/tools'), ('SESSION_MANAGER', 'local/OMEN16:@/tmp/.ICE-unix/1456,unix/OMEN16:/tmp/.ICE-unix/1456'), ('INVOCATION_ID', '3249ba633f614f76bc3d613658c14ef7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/omen16/.cache/dotnet_bundle_extract'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/home/omen16/workspace/grad_ws/install/kiss_icp:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/omen16/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:08d93473-29d3-4777-bf46-3c5b4483050b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/omen16/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omen16/workspace/grad_ws/build/kiss_icp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/omen16/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/omen16/workspace/grad_ws/build/lidar_processor:/home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/kiss_icp:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble')]), 'shell': False}
+[0.099569] (-) TimerEvent: {}
+[0.121386] (kiss_icp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.129382] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199639] (-) TimerEvent: {}
+[0.200027] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.211438] (kiss_icp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.211736] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.212089] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.233165] (kiss_icp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/omen16/workspace/grad_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):\n'}
+[0.233238] (kiss_icp) StderrLine: {'line': b'  The OLD behavior for policy CMP0135 will be removed from a future version\n'}
+[0.233279] (kiss_icp) StderrLine: {'line': b'  of CMake.\n'}
+[0.233313] (kiss_icp) StderrLine: {'line': b'\n'}
+[0.233341] (kiss_icp) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.233369] (kiss_icp) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.233396] (kiss_icp) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.233423] (kiss_icp) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.233450] (kiss_icp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.233478] (kiss_icp) StderrLine: {'line': b'  /home/omen16/workspace/grad_ws/src/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)\n'}
+[0.233505] (kiss_icp) StderrLine: {'line': b'\n'}
+[0.233530] (kiss_icp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.299731] (-) TimerEvent: {}
+[0.399993] (-) TimerEvent: {}
+[0.500365] (-) TimerEvent: {}
+[0.600774] (-) TimerEvent: {}
+[0.701158] (-) TimerEvent: {}
+[0.801530] (-) TimerEvent: {}
+[0.831822] (kiss_icp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.845294] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.891929] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.901153] (kiss_icp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.901439] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.901568] (-) TimerEvent: {}
+[0.901770] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.001697] (-) TimerEvent: {}
+[1.102005] (-) TimerEvent: {}
+[1.202334] (-) TimerEvent: {}
+[1.302735] (-) TimerEvent: {}
+[1.403110] (-) TimerEvent: {}
+[1.444552] (kiss_icp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/omen16/workspace/grad_ws/build/kiss_icp/_deps/tessil-src/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[1.444761] (kiss_icp) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[1.444852] (kiss_icp) StderrLine: {'line': b'  CMake.\n'}
+[1.444927] (kiss_icp) StderrLine: {'line': b'\n'}
+[1.444993] (kiss_icp) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[1.445061] (kiss_icp) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[1.445122] (kiss_icp) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[1.445182] (kiss_icp) StderrLine: {'line': b'\n'}
+[1.445242] (kiss_icp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.457076] (kiss_icp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.503198] (-) TimerEvent: {}
+[1.553634] (kiss_icp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.603317] (-) TimerEvent: {}
+[1.610265] (kiss_icp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.656565] (kiss_icp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.689927] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.694372] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.702381] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.703422] (-) TimerEvent: {}
+[1.713011] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.726891] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.759075] (kiss_icp) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.772453] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.803533] (-) TimerEvent: {}
+[1.806924] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.809534] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.894564] (kiss_icp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.903608] (-) TimerEvent: {}
+[1.918451] (kiss_icp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.952577] (kiss_icp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.960620] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.003692] (-) TimerEvent: {}
+[2.015094] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.015960] (kiss_icp) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[2.050190] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.074596] (kiss_icp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.088556] (kiss_icp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.103766] (-) TimerEvent: {}
+[2.151516] (kiss_icp) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.201334] (kiss_icp) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.203863] (-) TimerEvent: {}
+[2.221018] (kiss_icp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.244845] (kiss_icp) StdoutLine: {'line': b'-- Build files have been written to: /home/omen16/workspace/grad_ws/build/kiss_icp\n'}
+[2.255121] (kiss_icp) CommandEnded: {'returncode': 0}
+[2.257555] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'build'}
+[2.257684] (kiss_icp) Command: {'cmd': ['/home/omen16/.local/bin/cmake', '--build', '/home/omen16/workspace/grad_ws/build/kiss_icp', '--', '-j32', '-l32'], 'cwd': '/home/omen16/workspace/grad_ws/build/kiss_icp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'omen16'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/home/omen16/workspace/grad_ws/install/kiss_icp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omen16'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/omen16'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1274'), ('SYSTEMD_EXEC_PID', '1484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('_CONDA_ROOT', '/home/omen16/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '173574'), ('COLCON_PREFIX_PATH', '/home/omen16/workspace/grad_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'omen16'), ('JOURNAL_STREAM', '8:49664'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omen16'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/omen16/miniconda3/condabin:/usr/local/cuda-12.8/bin:/opt/ros/humble/bin:/usr/lib/dotnet/dotnet:/home/omen16/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/omen16/.dotnet/tools'), ('SESSION_MANAGER', 'local/OMEN16:@/tmp/.ICE-unix/1456,unix/OMEN16:/tmp/.ICE-unix/1456'), ('INVOCATION_ID', '3249ba633f614f76bc3d613658c14ef7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/omen16/.cache/dotnet_bundle_extract'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/home/omen16/workspace/grad_ws/install/kiss_icp:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/omen16/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:08d93473-29d3-4777-bf46-3c5b4483050b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/omen16/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omen16/workspace/grad_ws/build/kiss_icp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/omen16/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/omen16/workspace/grad_ws/build/lidar_processor:/home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/kiss_icp:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble')]), 'shell': False}
+[2.303976] (-) TimerEvent: {}
+[2.321859] (kiss_icp) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o\x1b[0m\n'}
+[2.323526] (kiss_icp) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o\x1b[0m\n'}
+[2.323722] (kiss_icp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o\x1b[0m\n'}
+[2.324047] (kiss_icp) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o\x1b[0m\n'}
+[2.324406] (kiss_icp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o\x1b[0m\n'}
+[2.325626] (kiss_icp) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o\x1b[0m\n'}
+[2.326577] (kiss_icp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o\x1b[0m\n'}
+[2.404077] (-) TimerEvent: {}
+[2.504357] (-) TimerEvent: {}
+[2.604651] (-) TimerEvent: {}
+[2.704966] (-) TimerEvent: {}
+[2.805250] (-) TimerEvent: {}
+[2.905538] (-) TimerEvent: {}
+[3.005860] (-) TimerEvent: {}
+[3.106148] (-) TimerEvent: {}
+[3.206434] (-) TimerEvent: {}
+[3.306707] (-) TimerEvent: {}
+[3.406982] (-) TimerEvent: {}
+[3.507256] (-) TimerEvent: {}
+[3.607531] (-) TimerEvent: {}
+[3.707825] (-) TimerEvent: {}
+[3.808113] (-) TimerEvent: {}
+[3.908398] (-) TimerEvent: {}
+[4.008680] (-) TimerEvent: {}
+[4.108963] (-) TimerEvent: {}
+[4.209229] (-) TimerEvent: {}
+[4.309495] (-) TimerEvent: {}
+[4.349870] (kiss_icp) StdoutLine: {'line': b'[ 57%] \x1b[1m\x1b[32mLinking CXX executable kiss_icp_node\x1b[0m\n'}
+[4.409251] (kiss_icp) StdoutLine: {'line': b'[ 57%] Built target kiss_icp_node\n'}
+[4.409557] (-) TimerEvent: {}
+[4.509763] (-) TimerEvent: {}
+[4.610027] (-) TimerEvent: {}
+[4.710284] (-) TimerEvent: {}
+[4.810542] (-) TimerEvent: {}
+[4.910815] (-) TimerEvent: {}
+[5.011091] (-) TimerEvent: {}
+[5.111361] (-) TimerEvent: {}
+[5.211631] (-) TimerEvent: {}
+[5.311902] (-) TimerEvent: {}
+[5.412175] (-) TimerEvent: {}
+[5.512448] (-) TimerEvent: {}
+[5.612729] (-) TimerEvent: {}
+[5.688885] (kiss_icp) StdoutLine: {'line': b'[ 64%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_core.a\x1b[0m\n'}
+[5.712815] (-) TimerEvent: {}
+[5.722919] (kiss_icp) StdoutLine: {'line': b'[ 64%] Built target kiss_icp_core\n'}
+[5.731032] (kiss_icp) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o\x1b[0m\n'}
+[5.812918] (-) TimerEvent: {}
+[5.913195] (-) TimerEvent: {}
+[6.013475] (-) TimerEvent: {}
+[6.113745] (-) TimerEvent: {}
+[6.214024] (-) TimerEvent: {}
+[6.314303] (-) TimerEvent: {}
+[6.414581] (-) TimerEvent: {}
+[6.514860] (-) TimerEvent: {}
+[6.615126] (-) TimerEvent: {}
+[6.631731] (kiss_icp) StdoutLine: {'line': b'[ 78%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_pipeline.a\x1b[0m\n'}
+[6.674936] (kiss_icp) StdoutLine: {'line': b'[ 78%] Built target kiss_icp_pipeline\n'}
+[6.682701] (kiss_icp) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o\x1b[0m\n'}
+[6.715189] (-) TimerEvent: {}
+[6.815402] (-) TimerEvent: {}
+[6.915663] (-) TimerEvent: {}
+[7.015917] (-) TimerEvent: {}
+[7.116176] (-) TimerEvent: {}
+[7.216433] (-) TimerEvent: {}
+[7.316691] (-) TimerEvent: {}
+[7.416951] (-) TimerEvent: {}
+[7.517209] (-) TimerEvent: {}
+[7.617466] (-) TimerEvent: {}
+[7.717729] (-) TimerEvent: {}
+[7.817981] (-) TimerEvent: {}
+[7.918238] (-) TimerEvent: {}
+[8.018488] (-) TimerEvent: {}
+[8.118751] (-) TimerEvent: {}
+[8.219005] (-) TimerEvent: {}
+[8.319262] (-) TimerEvent: {}
+[8.419514] (-) TimerEvent: {}
+[8.519775] (-) TimerEvent: {}
+[8.620047] (-) TimerEvent: {}
+[8.720314] (-) TimerEvent: {}
+[8.775127] (kiss_icp) StdoutLine: {'line': b'[ 92%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_metrics.a\x1b[0m\n'}
+[8.806400] (kiss_icp) StdoutLine: {'line': b'[ 92%] Built target kiss_icp_metrics\n'}
+[8.820383] (-) TimerEvent: {}
+[8.920558] (-) TimerEvent: {}
+[9.020766] (-) TimerEvent: {}
+[9.121070] (-) TimerEvent: {}
+[9.221369] (-) TimerEvent: {}
+[9.321671] (-) TimerEvent: {}
+[9.421987] (-) TimerEvent: {}
+[9.522334] (-) TimerEvent: {}
+[9.622648] (-) TimerEvent: {}
+[9.722951] (-) TimerEvent: {}
+[9.823247] (-) TimerEvent: {}
+[9.923545] (-) TimerEvent: {}
+[10.023860] (-) TimerEvent: {}
+[10.124209] (-) TimerEvent: {}
+[10.224532] (-) TimerEvent: {}
+[10.324860] (-) TimerEvent: {}
+[10.425165] (-) TimerEvent: {}
+[10.525469] (-) TimerEvent: {}
+[10.625794] (-) TimerEvent: {}
+[10.726129] (-) TimerEvent: {}
+[10.826441] (-) TimerEvent: {}
+[10.926757] (-) TimerEvent: {}
+[11.027059] (-) TimerEvent: {}
+[11.127354] (-) TimerEvent: {}
+[11.227668] (-) TimerEvent: {}
+[11.328024] (-) TimerEvent: {}
+[11.428349] (-) TimerEvent: {}
+[11.528646] (-) TimerEvent: {}
+[11.628964] (-) TimerEvent: {}
+[11.729282] (-) TimerEvent: {}
+[11.829607] (-) TimerEvent: {}
+[11.929952] (-) TimerEvent: {}
+[12.030265] (-) TimerEvent: {}
+[12.130572] (-) TimerEvent: {}
+[12.230868] (-) TimerEvent: {}
+[12.331165] (-) TimerEvent: {}
+[12.431476] (-) TimerEvent: {}
+[12.531828] (-) TimerEvent: {}
+[12.632166] (-) TimerEvent: {}
+[12.732480] (-) TimerEvent: {}
+[12.832753] (-) TimerEvent: {}
+[12.933046] (-) TimerEvent: {}
+[13.033340] (-) TimerEvent: {}
+[13.133684] (-) TimerEvent: {}
+[13.233998] (-) TimerEvent: {}
+[13.334348] (-) TimerEvent: {}
+[13.434654] (-) TimerEvent: {}
+[13.534958] (-) TimerEvent: {}
+[13.635273] (-) TimerEvent: {}
+[13.735618] (-) TimerEvent: {}
+[13.835941] (-) TimerEvent: {}
+[13.936243] (-) TimerEvent: {}
+[14.036533] (-) TimerEvent: {}
+[14.136839] (-) TimerEvent: {}
+[14.237156] (-) TimerEvent: {}
+[14.337497] (-) TimerEvent: {}
+[14.437811] (-) TimerEvent: {}
+[14.538112] (-) TimerEvent: {}
+[14.638419] (-) TimerEvent: {}
+[14.738731] (-) TimerEvent: {}
+[14.839047] (-) TimerEvent: {}
+[14.939390] (-) TimerEvent: {}
+[15.039705] (-) TimerEvent: {}
+[15.140014] (-) TimerEvent: {}
+[15.240337] (-) TimerEvent: {}
+[15.340636] (-) TimerEvent: {}
+[15.440965] (-) TimerEvent: {}
+[15.541306] (-) TimerEvent: {}
+[15.641631] (-) TimerEvent: {}
+[15.741946] (-) TimerEvent: {}
+[15.842243] (-) TimerEvent: {}
+[15.942531] (-) TimerEvent: {}
+[16.042851] (-) TimerEvent: {}
+[16.143207] (-) TimerEvent: {}
+[16.243544] (-) TimerEvent: {}
+[16.317856] (kiss_icp) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX shared library libodometry_component.so\x1b[0m\n'}
+[16.343640] (-) TimerEvent: {}
+[16.426353] (kiss_icp) StdoutLine: {'line': b'[100%] Built target odometry_component\n'}
+[16.435322] (kiss_icp) CommandEnded: {'returncode': 0}
+[16.436437] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'install'}
+[16.443704] (-) TimerEvent: {}
+[16.481205] (kiss_icp) Command: {'cmd': ['/home/omen16/.local/bin/cmake', '--install', '/home/omen16/workspace/grad_ws/build/kiss_icp'], 'cwd': '/home/omen16/workspace/grad_ws/build/kiss_icp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'omen16'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/home/omen16/workspace/grad_ws/install/kiss_icp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omen16'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/omen16'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1274'), ('SYSTEMD_EXEC_PID', '1484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('_CONDA_ROOT', '/home/omen16/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '173574'), ('COLCON_PREFIX_PATH', '/home/omen16/workspace/grad_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'omen16'), ('JOURNAL_STREAM', '8:49664'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omen16'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/omen16/miniconda3/condabin:/usr/local/cuda-12.8/bin:/opt/ros/humble/bin:/usr/lib/dotnet/dotnet:/home/omen16/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/omen16/.dotnet/tools'), ('SESSION_MANAGER', 'local/OMEN16:@/tmp/.ICE-unix/1456,unix/OMEN16:/tmp/.ICE-unix/1456'), ('INVOCATION_ID', '3249ba633f614f76bc3d613658c14ef7'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/omen16/.cache/dotnet_bundle_extract'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/home/omen16/workspace/grad_ws/install/kiss_icp:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/omen16/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:08d93473-29d3-4777-bf46-3c5b4483050b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/omen16/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omen16/workspace/grad_ws/build/kiss_icp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/omen16/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/omen16/workspace/grad_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/omen16/workspace/grad_ws/build/lidar_processor:/home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/kiss_icp:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble')]), 'shell': False}
+[16.530390] (kiss_icp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[16.530954] (kiss_icp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.532566] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node\n'}
+[16.535840] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/lib/libodometry_component.so\n'}
+[16.542327] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py\n'}
+[16.543775] (-) TimerEvent: {}
+[16.544846] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz\n'}
+[16.547165] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp//config/config.yaml\n'}
+[16.549937] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp\n'}
+[16.553963] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp\n'}
+[16.556857] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh\n'}
+[16.559363] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv\n'}
+[16.561519] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/environment/path.sh\n'}
+[16.563574] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv\n'}
+[16.565627] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/local_setup.bash\n'}
+[16.567668] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/local_setup.sh\n'}
+[16.569737] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh\n'}
+[16.572552] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv\n'}
+[16.575151] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/package.dsv\n'}
+[16.577628] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp\n'}
+[16.579685] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp\n'}
+[16.582697] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake\n'}
+[16.584972] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake\n'}
+[16.587482] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/package.xml\n'}
+[16.591326] (kiss_icp) CommandEnded: {'returncode': 0}
+[16.602489] (kiss_icp) JobEnded: {'identifier': 'kiss_icp', 'rc': 0}
+[16.602912] (-) EventReactorShutdown: {}

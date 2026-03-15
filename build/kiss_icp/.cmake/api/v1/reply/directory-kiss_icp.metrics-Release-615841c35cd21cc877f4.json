@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kiss_icp/metrics",
+		"source" : "/home/omen16/workspace/grad_ws/src/kiss-icp/cpp/kiss_icp/metrics"
+	}
+}

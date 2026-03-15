@@ -1,0 +1,7 @@
+[console_scripts]
+marker_tracker_node = lidar_processor.marker_tracker:main
+pc2np_opt_kitti = lidar_processor.pc2np_opt_kitti:main
+pc2np_opt_node = lidar_processor.pc2np_optimzer:main
+test_node = lidar_processor.test:main
+tracker = lidar_processor.tracker:main
+

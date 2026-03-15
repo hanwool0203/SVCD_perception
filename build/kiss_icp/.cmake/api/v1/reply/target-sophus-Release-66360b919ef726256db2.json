@@ -1,0 +1,62 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"/home/omen16/workspace/grad_ws/build/kiss_icp/_deps/sophus-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "sophus::@0ea949b180ce896eafe4",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Eigen3::Eigen::@51fc3d5ab9edf2ed8674"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Eigen3::Eigen::@51fc3d5ab9edf2ed8674"
+		}
+	],
+	"name" : "sophus",
+	"paths" : 
+	{
+		"build" : "_deps/sophus-build",
+		"source" : "/home/omen16/workspace/grad_ws/build/kiss_icp/_deps/sophus-src"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

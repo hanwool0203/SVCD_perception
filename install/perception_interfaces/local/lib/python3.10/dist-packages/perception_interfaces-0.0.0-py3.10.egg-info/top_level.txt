@@ -1,0 +1,1 @@
+/home/omen16/workspace/grad_ws/build/perception_interfaces/ament_cmake_python/perception_interfaces/perception_interfaces.egg-info/top_level.txt

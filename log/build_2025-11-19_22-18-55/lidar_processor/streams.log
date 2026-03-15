@@ -1,0 +1,23 @@
+[0.479s] Invoking command in '/home/omen16/workspace/grad_ws/src/lidar_processor': PYTHONPATH=/home/omen16/workspace/grad_ws/build/lidar_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_processor build --build-base /home/omen16/workspace/grad_ws/build/lidar_processor/build install --record /home/omen16/workspace/grad_ws/build/lidar_processor/install.log --single-version-externally-managed install_data
+[0.629s] running egg_info
+[0.630s] writing ../../build/lidar_processor/lidar_processor.egg-info/PKG-INFO
+[0.630s] writing dependency_links to ../../build/lidar_processor/lidar_processor.egg-info/dependency_links.txt
+[0.630s] writing entry points to ../../build/lidar_processor/lidar_processor.egg-info/entry_points.txt
+[0.630s] writing requirements to ../../build/lidar_processor/lidar_processor.egg-info/requires.txt
+[0.630s] writing top-level names to ../../build/lidar_processor/lidar_processor.egg-info/top_level.txt
+[0.631s] reading manifest file '../../build/lidar_processor/lidar_processor.egg-info/SOURCES.txt'
+[0.631s] adding license file 'LICENSE'
+[0.631s] writing manifest file '../../build/lidar_processor/lidar_processor.egg-info/SOURCES.txt'
+[0.631s] running build
+[0.631s] running build_py
+[0.632s] running install
+[0.632s] running install_lib
+[0.632s] running install_data
+[0.633s] running install_egg_info
+[0.634s] removing '/home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor-0.0.0-py3.10.egg-info' (and everything under it)
+[0.634s] Copying ../../build/lidar_processor/lidar_processor.egg-info to /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor-0.0.0-py3.10.egg-info
+[0.634s] running install_scripts
+[0.647s] Installing lidar_inference_node script to /home/omen16/workspace/grad_ws/install/lidar_processor/lib/lidar_processor
+[0.647s] Installing pc2np_node script to /home/omen16/workspace/grad_ws/install/lidar_processor/lib/lidar_processor
+[0.647s] writing list of installed files to '/home/omen16/workspace/grad_ws/build/lidar_processor/install.log'
+[0.662s] Invoked command in '/home/omen16/workspace/grad_ws/src/lidar_processor' returned '0': PYTHONPATH=/home/omen16/workspace/grad_ws/build/lidar_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_processor build --build-base /home/omen16/workspace/grad_ws/build/lidar_processor/build install --record /home/omen16/workspace/grad_ws/build/lidar_processor/install.log --single-version-externally-managed install_data

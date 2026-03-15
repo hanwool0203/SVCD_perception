@@ -1,0 +1,1 @@
+/home/omen16/workspace/grad_ws/build/perception_interfaces/ament_cmake_environment_hooks/local_setup.sh

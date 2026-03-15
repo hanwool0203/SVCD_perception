@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "perception_interfaces__py",
+		"source" : "/home/omen16/workspace/grad_ws/build/perception_interfaces/perception_interfaces__py"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"/home/omen16/workspace/grad_ws/build/kiss_icp/_deps/tessil-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "robin_map::@4115c7f5744acfd5bb8c",
+	"name" : "robin_map",
+	"paths" : 
+	{
+		"build" : "_deps/tessil-build",
+		"source" : "/home/omen16/workspace/grad_ws/build/kiss_icp/_deps/tessil-src"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

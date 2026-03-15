@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from perception_interfaces/msg/ObjectInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module perception_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "perception_interfaces/msg/ObjectInfo.msg")
+    struct ObjectInfo {
+      @verbatim (language="comment", text=
+        "클래스 ID (0:Unknown, 1:Car, 9:Pedestrian 등)")
+      int32 class_id;
+
+      @verbatim (language="comment", text=
+        "인식 신뢰도 (0.0 ~ 1.0)")
+      float score;
+
+      @verbatim (language="comment", text=
+        "x축 속도 (m/s)")
+      float velocity_x;
+
+      @verbatim (language="comment", text=
+        "y축 속도 (m/s)")
+      float velocity_y;
+
+      @verbatim (language="comment", text=
+        "중심 좌표(x,y,z) 및 회전(quaternion)")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "물체 크기 (x, y, z)")
+      geometry_msgs::msg::Vector3 dimensions;
+    };
+  };
+};

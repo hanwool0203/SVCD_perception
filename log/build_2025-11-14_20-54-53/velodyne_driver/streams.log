@@ -1,0 +1,118 @@
+[0.008s] Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/omen16/workspace/grad_ws/src/velodyne/velodyne_driver -DCMAKE_INSTALL_PREFIX=/home/omen16/workspace/grad_ws/install/velodyne_driver
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.352s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.360s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.488s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.557s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.587s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.592s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.598s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.674s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.677s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.751s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.772s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.803s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.808s] -- Looking for pthread.h
+[0.875s] -- Looking for pthread.h - found
+[0.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.936s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.937s] -- Found Threads: TRUE  
+[1.052s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.073s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.154s] -- Found velodyne_msgs: 2.5.1 (/home/omen16/workspace/grad_ws/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[1.171s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.241s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.250s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.254s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.255s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/omen16/workspace/grad_ws/src/velodyne/velodyne_driver/include>
+[1.255s] -- Configured cppcheck exclude dirs and/or files: 
+[1.258s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.258s] -- Configured cpplint exclude dirs and/or files: 
+[1.259s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.261s] -- Added test 'lint_cmake' to check CMake code style
+[1.262s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.264s] -- Added test 'uncrustify' to check C / C++ code style
+[1.264s] -- Configured uncrustify additional arguments: 
+[1.265s] -- Added test 'xmllint' to check XML markup files
+[1.269s] -- Configuring done
+[1.300s] -- Generating done
+[1.308s] -- Build files have been written to: /home/omen16/workspace/grad_ws/build/velodyne_driver
+[1.321s] Invoked command in '/home/omen16/workspace/grad_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/omen16/workspace/grad_ws/src/velodyne/velodyne_driver -DCMAKE_INSTALL_PREFIX=/home/omen16/workspace/grad_ws/install/velodyne_driver
+[1.322s] Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/omen16/workspace/grad_ws/build/velodyne_driver -- -j32 -l32
+[1.367s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.367s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.367s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_input.dir/src/lib/input.cpp.o[0m
+[1.869s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.905s] [ 33%] Built target gtest_main
+[3.754s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.776s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[3.824s] [ 50%] Built target gtest
+[3.902s] [ 50%] Built target velodyne_input
+[3.924s] [ 66%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cpp.o[0m
+[3.924s] [ 66%] [32mBuilding CXX object CMakeFiles/time_test.dir/tests/timeconversiontest.cpp.o[0m
+[6.533s] [ 75%] [32m[1mLinking CXX executable time_test[0m
+[6.749s] [ 75%] Built target time_test
+[11.173s] [ 83%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[11.589s] [ 83%] Built target velodyne_driver
+[11.604s] [ 91%] [32mBuilding CXX object CMakeFiles/velodyne_driver_node.dir/src/driver/velodyne_node.cpp.o[0m
+[13.925s] [100%] [32m[1mLinking CXX executable velodyne_driver_node[0m
+[14.155s] [100%] Built target velodyne_driver_node
+[14.165s] Invoked command in '/home/omen16/workspace/grad_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/omen16/workspace/grad_ws/build/velodyne_driver -- -j32 -l32
+[14.167s] Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_driver': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/omen16/workspace/grad_ws/build/velodyne_driver
+[14.174s] -- Install configuration: ""
+[14.174s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/lib/libvelodyne_input.so
+[14.174s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_driver/lib/libvelodyne_input.so" to ""
+[14.174s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/lib/libvelodyne_driver.so
+[14.183s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_driver/lib/libvelodyne_driver.so" to ""
+[14.270s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+[14.270s] -- Set runtime path of "/home/omen16/workspace/grad_ws/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node" to ""
+[14.270s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/include/velodyne_driver
+[14.271s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/include/velodyne_driver/driver.hpp
+[14.271s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/include/velodyne_driver/input.hpp
+[14.271s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+[14.271s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/config
+[14.272s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/config/VLP16-velodyne_driver_node-params.yaml
+[14.272s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/config/VLS128-velodyne_driver_node-params.yaml
+[14.273s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/config/VLP32C-velodyne_driver_node-params.yaml
+[14.273s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/launch
+[14.273s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-composed-launch.py
+[14.273s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-composed-launch.py
+[14.273s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-launch.py
+[14.273s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-composed-launch.py
+[14.273s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-launch.py
+[14.274s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-launch.py
+[14.274s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/lib/velodyne_driver/vdump
+[14.275s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+[14.275s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+[14.275s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+[14.275s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+[14.275s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+[14.275s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+[14.276s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+[14.276s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+[14.276s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+[14.276s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+[14.276s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/package.dsv
+[14.276s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+[14.276s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+[14.277s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverExport.cmake
+[14.277s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverExport-noconfig.cmake
+[14.277s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.277s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_targets-extras.cmake
+[14.277s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.277s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+[14.277s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+[14.278s] -- Installing: /home/omen16/workspace/grad_ws/install/velodyne_driver/share/velodyne_driver/package.xml
+[14.280s] Invoked command in '/home/omen16/workspace/grad_ws/build/velodyne_driver' returned '0': CMAKE_PREFIX_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs:/home/omen16/workspace/grad_ws/install/velodyne:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud:/home/omen16/workspace/grad_ws/install/velodyne_driver:/home/omen16/workspace/grad_ws/install/velodyne_laserscan:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble LD_LIBRARY_PATH=/home/omen16/workspace/grad_ws/install/velodyne_msgs/lib:/usr/local/cuda-12.8/lib64:/home/omen16/workspace/grad_ws/install/velodyne_pointcloud/lib:/home/omen16/workspace/grad_ws/install/velodyne_driver/lib:/home/omen16/workspace/grad_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/omen16/workspace/grad_ws/build/velodyne_driver

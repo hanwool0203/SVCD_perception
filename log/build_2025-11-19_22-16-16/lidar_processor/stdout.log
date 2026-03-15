@@ -1,0 +1,32 @@
+running develop
+Removing /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar-processor.egg-link (link to .)
+running egg_info
+writing ../../build/lidar_processor/lidar_processor.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_processor/lidar_processor.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_processor/lidar_processor.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_processor/lidar_processor.egg-info/requires.txt
+writing top-level names to ../../build/lidar_processor/lidar_processor.egg-info/top_level.txt
+reading manifest file '../../build/lidar_processor/lidar_processor.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/lidar_processor/lidar_processor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_processor/pc2np.py -> /home/omen16/workspace/grad_ws/build/lidar_processor/build/lib/lidar_processor
+running install
+running install_lib
+creating /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor
+copying /home/omen16/workspace/grad_ws/build/lidar_processor/build/lib/lidar_processor/__init__.py -> /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor
+copying /home/omen16/workspace/grad_ws/build/lidar_processor/build/lib/lidar_processor/lidar_inference.py -> /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor
+copying /home/omen16/workspace/grad_ws/build/lidar_processor/build/lib/lidar_processor/pc2np.py -> /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor
+byte-compiling /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor/lidar_inference.py to lidar_inference.cpython-310.pyc
+byte-compiling /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor/pc2np.py to pc2np.cpython-310.pyc
+running install_data
+copying resource/lidar_processor -> /home/omen16/workspace/grad_ws/install/lidar_processor/share/ament_index/resource_index/packages
+copying package.xml -> /home/omen16/workspace/grad_ws/install/lidar_processor/share/lidar_processor
+running install_egg_info
+Copying ../../build/lidar_processor/lidar_processor.egg-info to /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_inference_node script to /home/omen16/workspace/grad_ws/install/lidar_processor/lib/lidar_processor
+Installing pc2np_node script to /home/omen16/workspace/grad_ws/install/lidar_processor/lib/lidar_processor
+writing list of installed files to '/home/omen16/workspace/grad_ws/build/lidar_processor/install.log'

@@ -1,0 +1,107 @@
+[0.007s] Invoking command in '/home/omen16/workspace/grad_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake /home/omen16/workspace/grad_ws/src/kiss-icp/ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omen16/workspace/grad_ws/install/kiss_icp
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.211s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.212s] -- Detecting CXX compile features
+[0.212s] -- Detecting CXX compile features - done
+[0.233s] [0mCMake Deprecation Warning at /home/omen16/workspace/grad_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):
+[0.233s]   The OLD behavior for policy CMP0135 will be removed from a future version
+[0.233s]   of CMake.
+[0.233s] 
+[0.233s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.233s]   policies are deprecated and that a policy should be set to OLD only under
+[0.233s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.233s]   behavior and not rely on setting a policy to OLD.
+[0.233s] Call Stack (most recent call first):
+[0.233s]   /home/omen16/workspace/grad_ws/src/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)
+[0.233s] 
+[0.233s] [0m
+[0.832s] -- The C compiler identification is GNU 11.4.0
+[0.845s] -- Detecting C compiler ABI info
+[0.892s] -- Detecting C compiler ABI info - done
+[0.901s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.901s] -- Detecting C compile features
+[0.902s] -- Detecting C compile features - done
+[1.444s] [0mCMake Deprecation Warning at /home/omen16/workspace/grad_ws/build/kiss_icp/_deps/tessil-src/CMakeLists.txt:1 (cmake_minimum_required):
+[1.445s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.445s]   CMake.
+[1.445s] 
+[1.445s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.445s]   to tell CMake that the project requires at least <min> but has been updated
+[1.445s]   to work with policies introduced by <max> or earlier.
+[1.445s] 
+[1.445s] [0m
+[1.457s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.553s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.610s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.656s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.690s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.694s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.702s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.727s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.759s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.772s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.807s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.809s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.894s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.918s] -- Found FastRTPS: /opt/ros/humble/include
+[1.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.016s] -- Found Threads: TRUE
+[2.050s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.074s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.088s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.151s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.201s] -- Configuring done (2.1s)
+[2.221s] -- Generating done (0.0s)
+[2.245s] -- Build files have been written to: /home/omen16/workspace/grad_ws/build/kiss_icp
+[2.257s] Invoked command in '/home/omen16/workspace/grad_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake /home/omen16/workspace/grad_ws/src/kiss-icp/ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omen16/workspace/grad_ws/install/kiss_icp
+[2.258s] Invoking command in '/home/omen16/workspace/grad_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake --build /home/omen16/workspace/grad_ws/build/kiss_icp -- -j32 -l32
+[2.322s] [  7%] [32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o[0m
+[2.323s] [ 14%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o[0m
+[2.323s] [ 21%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o[0m
+[2.324s] [ 28%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o[0m
+[2.324s] [ 35%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o[0m
+[2.325s] [ 42%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o[0m
+[2.326s] [ 50%] [32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o[0m
+[4.350s] [ 57%] [1m[32mLinking CXX executable kiss_icp_node[0m
+[4.409s] [ 57%] Built target kiss_icp_node
+[5.689s] [ 64%] [1m[32mLinking CXX static library libkiss_icp_core.a[0m
+[5.723s] [ 64%] Built target kiss_icp_core
+[5.731s] [ 71%] [32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o[0m
+[6.632s] [ 78%] [1m[32mLinking CXX static library libkiss_icp_pipeline.a[0m
+[6.675s] [ 78%] Built target kiss_icp_pipeline
+[6.682s] [ 85%] [32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o[0m
+[8.775s] [ 92%] [1m[32mLinking CXX static library libkiss_icp_metrics.a[0m
+[8.806s] [ 92%] Built target kiss_icp_metrics
+[16.318s] [100%] [1m[32mLinking CXX shared library libodometry_component.so[0m
+[16.426s] [100%] Built target odometry_component
+[16.435s] Invoked command in '/home/omen16/workspace/grad_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake --build /home/omen16/workspace/grad_ws/build/kiss_icp -- -j32 -l32
+[16.481s] Invoking command in '/home/omen16/workspace/grad_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake --install /home/omen16/workspace/grad_ws/build/kiss_icp
+[16.530s] -- Install configuration: "Release"
+[16.531s] -- Execute custom install script
+[16.532s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node
+[16.536s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/lib/libodometry_component.so
+[16.542s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
+[16.545s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
+[16.547s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp//config/config.yaml
+[16.550s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp
+[16.554s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp
+[16.557s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh
+[16.559s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv
+[16.561s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/environment/path.sh
+[16.563s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv
+[16.565s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/local_setup.bash
+[16.567s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/local_setup.sh
+[16.569s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh
+[16.572s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv
+[16.575s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/package.dsv
+[16.577s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp
+[16.579s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp
+[16.582s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake
+[16.585s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+[16.587s] -- Symlinking: /home/omen16/workspace/grad_ws/install/kiss_icp/share/kiss_icp/package.xml
+[16.591s] Invoked command in '/home/omen16/workspace/grad_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /home/omen16/.local/bin/cmake --install /home/omen16/workspace/grad_ws/build/kiss_icp

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing lidar_processor.egg-info/PKG-INFO
+writing dependency_links to lidar_processor.egg-info/dependency_links.txt
+writing entry points to lidar_processor.egg-info/entry_points.txt
+writing requirements to lidar_processor.egg-info/requires.txt
+writing top-level names to lidar_processor.egg-info/top_level.txt
+reading manifest file 'lidar_processor.egg-info/SOURCES.txt'
+writing manifest file 'lidar_processor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/omen16/workspace/grad_ws/install/lidar_processor/lib/python3.10/site-packages/lidar-processor.egg-link (link to .)
+Installing lidar_inference_node script to /home/omen16/workspace/grad_ws/install/lidar_processor/lib/lidar_processor
+Installing pc2np_node script to /home/omen16/workspace/grad_ws/install/lidar_processor/lib/lidar_processor
+
+Installed /home/omen16/workspace/grad_ws/build/lidar_processor
+running symlink_data
+symbolically linking /home/omen16/workspace/grad_ws/build/lidar_processor/resource/lidar_processor -> /home/omen16/workspace/grad_ws/install/lidar_processor/share/ament_index/resource_index/packages
+symbolically linking /home/omen16/workspace/grad_ws/build/lidar_processor/package.xml -> /home/omen16/workspace/grad_ws/install/lidar_processor/share/lidar_processor

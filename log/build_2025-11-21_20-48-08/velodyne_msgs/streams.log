@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /usr/bin/cmake --build /home/omen16/workspace/grad_ws/build/velodyne_msgs -- -j32 -l32
+[0.053s] [  2%] Built target velodyne_msgs__cpp
+[0.056s] [ 12%] Built target velodyne_msgs__rosidl_generator_c
+[0.061s] [ 12%] Built target ament_cmake_python_copy_velodyne_msgs
+[0.071s] [ 23%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[0.071s] [ 33%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[0.072s] [ 43%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[0.073s] [ 53%] Built target velodyne_msgs__rosidl_typesupport_c
+[0.074s] [ 64%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[0.074s] [ 74%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[0.090s] [ 74%] Built target velodyne_msgs
+[0.105s] [ 76%] Built target velodyne_msgs__py
+[0.120s] [ 84%] Built target velodyne_msgs__rosidl_generator_py
+[0.137s] [ 89%] Built target velodyne_msgs__rosidl_typesupport_introspection_c__pyext
+[0.137s] [100%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.137s] [100%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[0.201s] running egg_info
+[0.201s] writing velodyne_msgs.egg-info/PKG-INFO
+[0.201s] writing dependency_links to velodyne_msgs.egg-info/dependency_links.txt
+[0.202s] writing top-level names to velodyne_msgs.egg-info/top_level.txt
+[0.203s] reading manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[0.203s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[0.221s] [100%] Built target ament_cmake_python_build_velodyne_msgs_egg

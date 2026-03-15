@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from perception_interfaces/msg/ObjectArray.msg
+// generated code does not contain a copyright notice
+
+#include "perception_interfaces/msg/ObjectInfo.idl"
+#include "std_msgs/msg/Header.idl"
+
+module perception_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "perception_interfaces/msg/ObjectArray.msg")
+    struct ObjectArray {
+      @verbatim (language="comment", text=
+        "타임스탬프 및 프레임 ID")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "ObjectInfo의 배열")
+      sequence<perception_interfaces::msg::ObjectInfo> objects;
+    };
+  };
+};

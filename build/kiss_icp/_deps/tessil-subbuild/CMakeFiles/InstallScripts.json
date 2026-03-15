@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/omen16/workspace/grad_ws/build/kiss_icp/_deps/tessil-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

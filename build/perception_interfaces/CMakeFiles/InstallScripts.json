@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/omen16/workspace/grad_ws/build/perception_interfaces/cmake_install.cmake",
+		"/home/omen16/workspace/grad_ws/build/perception_interfaces/perception_interfaces__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

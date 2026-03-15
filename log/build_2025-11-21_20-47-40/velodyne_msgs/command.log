@@ -1,0 +1,1 @@
+Invoking command in '/home/omen16/workspace/grad_ws/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omen16/workspace/grad_ws/install/lidar_processor:/opt/ros/humble /usr/bin/cmake --build /home/omen16/workspace/grad_ws/build/velodyne_msgs -- -j32 -l32

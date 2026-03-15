@@ -1,0 +1,1 @@
+/home/omen16/workspace/grad_ws/build/perception_interfaces/rosidl_typesupport_fastrtps_cpp/perception_interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_cpp.hpp

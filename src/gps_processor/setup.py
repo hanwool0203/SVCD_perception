@@ -1,8 +1,6 @@
 from setuptools import find_packages, setup
-from glob import glob
-import os
 
-package_name = 'lidar_processor'
+package_name = 'gps_processor'
 
 setup(
     name=package_name,
@@ -12,14 +10,13 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='omen16',
     maintainer_email='hanwool0203@naver.com',
     description='TODO: Package description',
-    license='Apache-2.0',
+    license='TODO: License declaration',
     extras_require={
         'test': [
             'pytest',
@@ -27,13 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'pc2np_opt_node = lidar_processor.pc2np_optimzer:main',
-            'pc2np_opt_kitti = lidar_processor.pc2np_opt_kitti:main',
-            'roi_warning_node = lidar_processor.roi_warning_node:main',
-
-            'tracker = lidar_processor.tracker:main',
-            'test_node = lidar_processor.test:main',
-            'marker_tracker_node = lidar_processor.marker_tracker:main',
+            'gps_subscriber = gps_processor.gps_subscriber:main',
+            'gps_llh2enu = gps_processor.gps_llh2enu:main',
         ],
     },
 )

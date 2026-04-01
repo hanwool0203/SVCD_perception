@@ -24,10 +24,10 @@ from pcdet.datasets import DatasetTemplate
 # =========================================================
 # [사용자 설정] 경로를 본인 환경에 맞게 수정하세요!
 # =========================================================
-# CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml')
-# CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/voxelnext_nuscenes_kernel1.pth')
-CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/kitti_models/pv_rcnn.yaml')
-CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/pv_rcnn_8369.pth')
+CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml')
+CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/voxelnext_nuscenes_kernel1.pth')
+# CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/kitti_models/pv_rcnn.yaml')
+# CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/pv_rcnn_8369.pth')
 SCORE_THRESH = 0.5
 # =========================================================
 class DemoDataset(DatasetTemplate):

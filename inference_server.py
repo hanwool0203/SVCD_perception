@@ -24,11 +24,15 @@ from pcdet.datasets import DatasetTemplate
 # =========================================================
 # [사용자 설정] 경로를 본인 환경에 맞게 수정하세요!
 # =========================================================
-CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml')
-CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/voxelnext_nuscenes_kernel1.pth')
-# CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/kitti_models/pv_rcnn.yaml')
-# CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/pv_rcnn_8369.pth')
-SCORE_THRESH = 0.5
+# CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml')
+# CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/nuscenes/voxelnext_nuscenes_kernel1.pth')
+# CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/kitti_models/pv_rcnn_cqca.yaml')
+# CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/kitti/pv_rcnn_cqca.pth')
+# CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/kitti_models/pointpillar_SPA_CQCA.yaml')
+# CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/kitti/pointpillar_CQCA.pth')
+CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_cqca.yaml')
+CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/nuscenes/voxelnext_16ch_base.pth')
+SCORE_THRESH = 0.66
 # =========================================================
 class DemoDataset(DatasetTemplate):
     def __init__(self, dataset_cfg, class_names, training=False, root_path=None, logger=None, ext='.bin'):

@@ -4,6 +4,7 @@ from matplotlib.pyplot import box
 import rclpy
 from rclpy.node import Node
 import numpy as np
+from geometry_msgs.msg import Point
 from sensor_msgs.msg import PointCloud2, PointField
 from visualization_msgs.msg import Marker, MarkerArray
 import zmq
@@ -14,7 +15,7 @@ class PointCloudConverterNode(Node):
     def __init__(self):
         super().__init__('pc2np_opt_node')
         self.frame_count = 0 
-        self.zaxis_calib = 1.13
+        self.zaxis_calib = 1.5
 
         # --- [ZMQ 설정] ---
         # ROS 노드가 '클라이언트(REQ)' 역할입니다.
@@ -104,6 +105,7 @@ class PointCloudConverterNode(Node):
             # 만약 최대값이 1.5보다 크다면(예: 255스케일) 255로 나눠줍니다.
             if np.max(points_xyzi[:, 3]) > 1.5:
                  points_xyzi[:, 3] /= 255.0
+                 points_xyzi[:, 3] = np.clip(points_xyzi[:, 3], 0.0, 1.0)
 
             # 3. Z축(높이) 강제 보정 ⭐ (가장 중요)
             # 현재 데이터의 대략적인 바닥면(하위 5% 포인트들의 평균 높이)을 찾습니다.
@@ -114,12 +116,10 @@ class PointCloudConverterNode(Node):
             height_diff = current_ground_z - (-1.73)
             points_xyzi[:, 2] -= height_diff
 
-            t_preprocess = time.perf_counter() # [측정 중간 1] 전처리 끝난 시간
+            front_mask = points_xyzi[:, 0] >= 0
+            points_xyzi = points_xyzi[front_mask]
 
-            # [처방 2] Z축 높이 내리기 (RC카 -> 승용차 높이 흉내)
-            # RC카(0.6m) -> nuScenes(1.73m) 차이만큼 내림.
-            # 땅속으로 1.5m 정도 내려야 모델이 "아, 바닥이 여기구나" 하고 인식함
-            points_xyzi[:, 2] -= self.zaxis_calib
+            t_preprocess = time.perf_counter() # [측정 중간 1] 전처리 끝난 시간
 
             # =========================================================
 
@@ -193,6 +193,43 @@ class PointCloudConverterNode(Node):
             del_marker.action = Marker.DELETEALL
             marker_array.markers.append(del_marker)
 
+            # =======================================================
+            # 🚨 [추가] KITTI ROI 빨간색 경계선 그리기
+            # =======================================================
+            roi_marker = Marker()
+            roi_marker.header = header
+            roi_marker.ns = "kitti_roi"
+            roi_marker.id = 99999  # 다른 박스들과 겹치지 않는 고유 ID
+            roi_marker.type = Marker.LINE_STRIP  # 점들을 이어 선으로 만듦
+            roi_marker.action = Marker.ADD
+            
+            roi_marker.scale.x = 0.2  # 선의 두께
+            roi_marker.color.r = 1.0  # Red (빨간색)
+            roi_marker.color.g = 0.0
+            roi_marker.color.b = 0.0
+            roi_marker.color.a = 0.8  # 약간 투명하게
+            
+            # KITTI ROI 좌표: X(0 ~ 69.12), Y(-39.68 ~ 39.68)
+            corners = [
+                (0.0, 39.68),     # 좌측 하단 (기준에 따라)
+                (69.12, 39.68),   # 좌측 상단
+                (69.12, -39.68),  # 우측 상단
+                (0.0, -39.68),    # 우측 하단
+                (0.0, 39.68)      # 처음 점으로 다시 돌아와서 사각형 닫기
+            ]
+            
+            for x, y in corners:
+                p = Point()
+                p.x = x
+                p.y = y
+                # 시각화 높이는 앞서 구한 라이다 바닥 높이에 맞추거나 0.0으로 둡니다.
+                p.z = getattr(self, 'height_diff', 0.0) 
+                roi_marker.points.append(p)
+                
+            roi_marker.lifetime.nanosec = 200000000 # 0.2초마다 갱신
+            marker_array.markers.append(roi_marker)
+            # =======================================================
+
             # -----------------------------------------------------------
             # [KITTI 3 Class Color Mapping]
             # -----------------------------------------------------------
@@ -235,7 +272,7 @@ class PointCloudConverterNode(Node):
                 # 좌표 및 크기
                 marker.pose.position.x = float(box[0])
                 marker.pose.position.y = float(box[1])
-                marker.pose.position.z = float(box[2]) + self.zaxis_calib 
+                marker.pose.position.z = float(box[2]) + + getattr(self, 'height_diff', 0.0)
 
                 yaw = float(box[6])
                 marker.pose.orientation.z = math.sin(yaw / 2.0)

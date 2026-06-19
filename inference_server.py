@@ -30,9 +30,13 @@ from pcdet.datasets import DatasetTemplate
 # CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/kitti/pv_rcnn_cqca.pth')
 # CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/kitti_models/pointpillar_SPA_CQCA.yaml')
 # CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/kitti/pointpillar_CQCA.pth')
-CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_cqca.yaml')
-CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/nuscenes/voxelnext_16ch_base.pth')
+CFG_FILE = str(PROJECT_ROOT / 'tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext_10.yaml')
+CKPT_FILE = str(PROJECT_ROOT / 'tools/ckpt/nuscenes/voxelnext_16ch_10sweep.pth')
 SCORE_THRESH = 0.66
+
+CLASS_SCORE_THRESH = {
+    'traffic_cone': 0.50,
+}
 # =========================================================
 class DemoDataset(DatasetTemplate):
     def __init__(self, dataset_cfg, class_names, training=False, root_path=None, logger=None, ext='.bin'):
@@ -157,8 +161,30 @@ def main():
                     pred_scores = result_dict['pred_scores'].cpu().numpy()
                     pred_labels = result_dict['pred_labels'].cpu().numpy()
 
-                    # Score Threshold 적용
-                    mask = pred_scores > SCORE_THRESH
+                    # # Score Threshold 적용
+                    # mask = pred_scores > SCORE_THRESH
+                    # final_boxes = pred_boxes[mask]
+                    # final_scores = pred_scores[mask]
+                    # final_labels = pred_labels[mask]
+
+                    # 클래스별 threshold
+                    class_names = list(cfg.CLASS_NAMES)
+
+                    try:
+                        cone_label_id = class_names.index('traffic_cone') + 1
+                    except ValueError:
+                        cone_label_id = None
+
+                    if cone_label_id is not None:
+                        is_cone = pred_labels == cone_label_id
+
+                        mask = (
+                            (is_cone & (pred_scores >= 0.50)) |
+                            (~is_cone & (pred_scores >= 0.66))
+                        )
+                    else:
+                        mask = pred_scores >= 0.66
+
                     final_boxes = pred_boxes[mask]
                     final_scores = pred_scores[mask]
                     final_labels = pred_labels[mask]
